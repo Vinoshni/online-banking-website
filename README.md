@@ -6,3 +6,4 @@ following facilities.
  Funds transfer to another account in the same bank.
  Request for cheque book/change of address/stop payment of cheques.
  Viewing monthly and annual
+Here the website is developed using HTML and PHP.
