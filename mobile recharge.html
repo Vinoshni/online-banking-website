@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ibank.com</title>
+	<style type="text/css">
+	body{
+	background-image:url('images/bg2.jpg');
+	background-repeat:no-repeat;
+	background-position:relative;
+	background-size: 100% 100vh;
+	}
+	ul
+	{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	}
+	a:link,a:visited
+	{
+	display:inline-block;
+	padding:5px;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:25px;
+	padding-right:25px;
+	front-weight:bold;
+	color:#FFFFFF;
+	background-color:#0000A0;
+	width:110px;
+	text-align:center;
+	padding:8px;
+	text-transform:uppercase;
+	text-decoration:none;
+	}
+	a:hover,a:active{
+	background-color:#0000FF;
+	}
+	li
+	{
+	float:right;
+	}
+	form{
+	padding-top: 75px;
+	font-size: 20px;
+	}
+	input{
+	width: 200px;
+	height: 20px;
+	font-size: 18px;
+	}
+	</style>
+</head>
+<body>
+<img src="images/2.jpg" width="90px" height="90px"
+	style="float: left">
+	<br>
+	<P style = "font-size: 30px;font-color: #FF0000"><B><U>ibank</U></B></P>
+	<ul>
+	<li><a href="index.html">Log out</a></li>
+	<li><a href="main.html">Back</a></li>
+	</ul>
+	<font color = '#A52A2A'><center><h2><u>Mobile recharge form</u></h2></center></font color = '#A52A2A'>
+<div>
+	<form method="POST" action="recharge.php">
+		<table align="center">
+			<tr>
+				<td valign="middle">
+					connectiontype :	
+				</td>
+				<td>
+					<select>
+						<option>Prepaid</option>
+						<option>Postpaid</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td valign="middle">
+					mobilenumber :	
+				</td>
+				<td>
+					<select>
+						<option>+91</option>
+					</select>
+					<input type="text"  name="mobilenumber">
+				</td>
+			</tr>
+			<tr>
+				<td valign="middle">
+					networkoperator :	
+				</td>
+				<td>
+					<select>
+						<option>Jio</option>
+						<option>Reliance</option>
+						<option>Idea</option>
+						<option>Vodafone</option>
+						<option>BSNL</option>
+						<option>Airtel</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td valign="middle">
+					amount :	
+				</td>
+				<td>
+					<select>
+						<option>Rs.100</option>
+						<option>Rs.200</option>
+						<option>Rs.300</option>
+						<option>Rs.400</option>
+						<option>Rs.500</option>
+					</select>
+				</td>
+			</tr>		
+			<br>
+			<br>
+			<tr>
+				<td>
+					<font color = '#C0C0C0'><a href= "recharged.html">Proceed</a></font color = '#C0C0C0'>
+				</td>
+			</tr>
+		</table>
+	</form>
+</div>	
+</body>
+</html>
